@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    box-sizing: border-box;
+    padding: 1vw;
+
+    background-color: rgb(63, 63, 63);
+}
+
+.block-1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.block-main{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+    padding: 1vw;
+
+    background-color: rgb(90, 90, 90);
+}
+
+.block-2{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+}
+
+.block-3{
+    width
+}
