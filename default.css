@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+}
+
+html{
+    overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0.5vw;
+    height: 0.5vw;
+}
+  
+/* Track */
+::-webkit-scrollbar-track{
+    background: #00000000;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: rgba(202, 202, 202, 0);
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(255, 255, 255, 0);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 100vw;
+    height: 25vh;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: calc(0.2vw + 0.36vh);
+    background-color: #00835e;
+}
+
+.block-1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 2vw;
+
+    border-radius: 20px;
+    background-color: #71ffbb;
+}
+
+.block-x{
+    width: auto;
+    height: auto;
+    min-height: 25px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    border-radius: 20px;
+    background-color: #003c9797;
+}
+
+.text-x{
+    margin-left: 1vw;
+    color: #ffffff;
+    font-size: calc(1.6vw + 3vh);
+}
+
+@media screen and (max-height: 400px){
+    .text-x{
+        font-size: calc(1.6vw + 12px);
+    }
+}
+
+.block-main{
+    width: 100vw;
+    height: 50vh;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: calc(0.2vw + 0.36vh);
+    position: relative;
+    background-color: #00835e;
+}
+
+.block-2{
+    width: calc(25% - 0.4vw - 0.72vh); 
+    height: calc(100% - 0.4vw - 0.72vh); 
+    box-sizing: border-box;
+    padding: calc(0.2vw + 0.36vh);
+    position: absolute;
+    background-color: #cac180;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+.list-1{
+    color: rgb(255, 255, 255);
+    font-size: calc(1.5vw + 1vh);
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    padding-left: 0;
+    list-style: upper-latin;
+     font-size: calc(1.5vw + 1vh);
+    transform: translate(-55%, -50%);
+}
+
+@media screen and (max-height: 400px){
+    .list-1{
+        font-size: calc(1.5vw + 4px);
+    }
+}
+
+.curr-page{
+    color: rgb(183, 255, 0);
+}
+
+.block-3{
+    width: calc(75% - 0.2vw - 0.36vh);
+    height: calc(15% - 0.4vw - 0.72vh);
+    position: absolute;
+    left: calc(25%);
+    box-sizing: border-box;
+    padding: calc(0.4vw + 0.72vh);
+    overflow-y: scroll;
+
+    background-color: #cac180;
+    border-radius: 20px;
+}
+
+.text-3{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    color: white;
+    transform: translate(0%, -50%);
+    font-size: calc(1vw + 1vh);
+}
+
+@media screen and (max-height: 400px){
+    .text-3{
+        font-size: calc(1vw + 4px);
+    }
+}
+
+.block-4{
+    width: calc(50%);
+    height: calc(85% - 0.2vw - 0.36vh);
+    position: absolute;
+    left: calc(25%);
+    bottom: calc(0.2vw + 0.36vh);
+
+    border-radius: 20px;
+    background-color: #cac180;
+}
+
+.leaf-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(6vw + 6vh);
+}
+
+@media screen and (max-height: 400px){
+    .leaf-img{
+        width: calc(6vw + 22px);
+    }
+}
+
+.block-5{
+    width: calc(25% - 0.4vw - 0.72vh);
+    height: calc(85% - 0.2vw - 0.36vh);
+    position: absolute;
+    right: calc(0.2vw + 0.36vh);
+    bottom: calc(0.2vw + 0.36vh);
+    box-sizing: border-box;
+    padding: calc(0.4vw + 0.72vh);
+    overflow-y: scroll;
+
+    border-radius: 20px;
+    background-color: #cac180;
+}
+
+.text-5{
+    color: white;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+@media screen and (max-height: 400px){
+    .text-5{
+        font-size: calc(1.5vw + 6px);
+    }
+}
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: calc(0.2vw + 0.36vh);
+    background-color: #00835e;
+}
+
+.block-6{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #71ffbb;
+}
+
+.block-y{
+    width: auto;
+    height: auto;
+    min-height: 25px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: calc(0.2vw + 0.36vh);
+    right: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    border-radius: 10px;
+    background-color: #00a537a5;
+}
+
+.list-2{
+    color: rgb(255, 255, 255);
+    font-size: calc(1.5vw + 1vh);
+    list-style: none;
+    padding-left: 0%;
+    position: relative;
+
+    transform: translate(0%, 0%);
+}
+
+@media screen and (max-height: 400px){
+    .list-2{
+        font-size: calc(1.5vw + 4px);
+    }
+}
