@@ -124,7 +124,6 @@ header{
     box-sizing: border-box;
     margin-bottom: calc(0.2vw + 0.36vh);
     overflow-y: scroll;
-    padding: 1vw;
     text-align: center;
     align-content: center;
     background-color: #5833bf7b;
